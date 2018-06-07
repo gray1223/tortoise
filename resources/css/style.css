@@ -192,6 +192,7 @@ ul li {
   .boxes {
     display: inline-flex;
     flex-direction: column;
+    justify-content: center;
 }
 
   .box {
