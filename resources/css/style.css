@@ -22,23 +22,22 @@ header {
   margin-top: 1rem;
 }
 
-.logo {
-  width: 100%
+header img {
   margin-right: 1rem;
   margin-left: 2rem;
   height: 1.5rem;
 }
 
-nav {
-  display: inline-flex;
-  list-style: none;
-}
-
-nav li {
-  display: inline-flex;
-  flex-direction: row;
-
-}
-
 header span {
+  padding: 1rem 0 1rem 0;
+}
+
+ul {
+  margin-left: 17rem;
+}
+
+ul li {
+  padding: 1rem 1rem;
+  display: inline-flex;
+
 }
