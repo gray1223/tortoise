@@ -141,3 +141,82 @@ ul li {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    margin-top: 0;
+  }
+  #container1 {
+    height: 22rem;
+  }
+  #title {
+    font-weight: bold;
+    font-size: 1.33rem;
+    line-height: 1.2;
+    padding: 0.75rem 4rem;
+    background-color: white;
+    margin-top: 5rem;
+    display: inline-flex;
+    float: right;
+    margin-right: 2rem;
+  }
+  ul li {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    margin-top: 0;
+  }
+  #container1 {
+    height: 17rem;
+  }
+  .pngs {
+    flex-direction: column;
+    text-align: center;
+    margin: 3.77rem auto;
+  }
+  #title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 9rem;
+    width: 100%;
+}
+  .boxes {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+  .box p {
+    font-weight: bold;
+    background-color: cadetblue;
+    color: white;
+    padding: 0.5rem auto;
+    width: 100%;
+}
+
+  .box span {
+    width: 20rem;
+    line-height: 1.4rem;
+    margin-top: 1rem;
+    font-size: 0.77rem;
+    margin-bottom: 4rem;
+}
+
+  #second {
+    margin-left: 0;
+}
+}
