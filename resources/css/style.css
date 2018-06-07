@@ -43,6 +43,7 @@ ul li {
 
 #container1 {
   height: 30rem;
+  margin: 0 auto;
 }
 
 #background-image {
@@ -61,4 +62,68 @@ ul li {
   margin-top: 10rem;
   display: inline-flex;
   float: right;
+  left: 2rem;
+}
+
+.pngs {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 8rem;
+}
+
+.png {
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  margin: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.png span {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+#img1 {
+  width: 3.5rem;
+}
+
+#img2 {
+  width: 5rem;
+}
+
+#img3 {
+  width: 5rem;
+}
+
+.boxes {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.box p {
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+}
+
+.box span {
+  width: 20rem;
+  line-height: 1.4rem;
+  margin-top: 1rem;
+}
+
+#second {
+  margin-left: 8rem;
 }
