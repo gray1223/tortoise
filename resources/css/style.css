@@ -33,11 +33,30 @@ header span {
 }
 
 ul {
-  margin-left: 17rem;
+  margin-left: 18rem;
 }
 
 ul li {
   padding: 1rem 1rem;
-  display: inline-flex;
+  display: inline;
+}
+
+#container1 {
+  height: 30rem;
+}
+
+#background-image {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+#title {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  background-color: white;
 
 }
