@@ -1,0 +1,44 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+body {
+
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: cadetblue;
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.logo {
+  width: 100%
+  margin-right: 1rem;
+  margin-left: 2rem;
+  height: 1.5rem;
+}
+
+nav {
+  display: inline-flex;
+  list-style: none;
+}
+
+nav li {
+  display: inline-flex;
+  flex-direction: row;
+
+}
+
+header span {
+}
