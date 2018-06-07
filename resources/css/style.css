@@ -127,3 +127,17 @@ ul li {
 #second {
   margin-left: 8rem;
 }
+
+.footer {
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  background-color: azure;
+  align-items: center;
+  width: 100%;
+}
+
+.footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
